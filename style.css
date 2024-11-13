@@ -72,9 +72,11 @@ ul {
 /* nav bar */
 
 .main-nav {
+  display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  position: relative;
+  justify-content: flex-end;
+  /* position: relative; */
 }
 
 .nav-toggle {
@@ -82,8 +84,8 @@ ul {
 }
 
 .nav-links {
-  flex-basis: 1500px;
-  margin-right: 40px;
+  /* flex-basis: 1500px; */
+  margin-right: 70px;
 }
 
 .nav-links ul {
